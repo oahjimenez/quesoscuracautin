@@ -249,12 +249,14 @@ header {
   background-image: url('../img/header.jpg');
   text-align: center;
   color: white;
+  overflow: hidden;
 }
 header .header-content {
   position: relative;
   text-align: center;
   width: 100%;
   padding: 120px 30px 40px 30px;
+  height: auto;
 }
 
 .header-content-inner {
