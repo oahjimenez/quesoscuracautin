@@ -69,9 +69,9 @@ aside {
 
 .navbar-brand.brand-text {
   text-transform: uppercase;
-  font-family: 'Akronim', cursive;
+  font-family: 'Lemonada', cursive;
   margin-top: 2px;
-  font-size: 30px;
+  font-size: 17px;
   font-weight: lighter;
 }
 
@@ -222,6 +222,7 @@ aside {
       position:relative;
       display: inline-block;
       z-index: 1000;
+      font-size: 20px;
     }
     .navbar-default.affix .navbar-logo {
         max-width: 70px;
