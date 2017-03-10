@@ -183,16 +183,13 @@ aside {
 
 @media (min-width: 768px) {
     .navbar-logo {
-      max-width:80%;
+      max-width:120px;
     }
 
     .navbar-default {
       padding: 30px;
       background-color: transparent;
       border-color: transparent;
-    }
-    .navbar-default .navbar-header .navbar-brand {
-      color: rgba(255, 255, 255, 0.7);
     }
     .navbar-default .navbar-header .navbar-brand:hover,
     .navbar-default .navbar-header .navbar-brand:focus {
@@ -221,10 +218,15 @@ aside {
       background-color: white;
       padding:0px;
     }
-    .navbar-default.affix .navbar-logo {
-        max-width: 30%;
+    .navbar-default.affix .navbar-brand.brand-text{
+      position:relative;
+      display: inline-block;
+      z-index: 1000;
     }
-
+    .navbar-default.affix .navbar-logo {
+        max-width: 70px;
+        margin-right: -10px;
+    }
     .navbar-default.affix .nav > li > a,
     .navbar-default.affix .nav > li > a:focus {
       color: #222222;
@@ -270,7 +272,7 @@ header .header-content hr {
   header {
     min-height: 100%;
   }
-  .brand-text {
+  .navbar-brand.brand-text {
     display: none;
   }
   header .header-content {
