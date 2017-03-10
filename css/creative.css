@@ -73,6 +73,7 @@ aside {
   margin-top: 2px;
   font-size: 17px;
   font-weight: lighter;
+  display: none;
 }
 
 .navbar-default {
@@ -181,9 +182,18 @@ aside {
   margin-bottom: 20px;
 }
 
+@media (min-width: 320px) {
+  .navbar-brand.brand-text{
+    display: inline-block;
+  }
+}
+
 @media (min-width: 768px) {
     .navbar-logo {
       max-width:120px;
+    }
+    .navbar-brand.brand-text{
+      display: none;
     }
 
     .navbar-default {
@@ -219,9 +229,7 @@ aside {
       padding:0px;
     }
     .navbar-default.affix .navbar-brand.brand-text{
-      position:relative;
       display: inline-block;
-      z-index: 1000;
       font-size: 20px;
     }
     .navbar-default.affix .navbar-logo {
@@ -272,9 +280,6 @@ header .header-content hr {
 @media (min-width: 768px) {
   header {
     min-height: 100%;
-  }
-  .navbar-brand.brand-text {
-    display: none;
   }
   header .header-content {
     /* Vertical align */
