@@ -71,9 +71,9 @@ aside {
   text-transform: uppercase;
   font-family: 'Lemonada', cursive;
   margin-top: 2px;
-  font-size: 17px;
+  font-size: 13px;
   font-weight: lighter;
-  display: none;
+  margin-right: -10px;
 }
 
 .navbar-default {
@@ -182,9 +182,9 @@ aside {
   margin-bottom: 20px;
 }
 
-@media (min-width: 386px) {
+@media (min-width: 376px) {
   .navbar-brand.brand-text{
-    display: inline-block;
+    font-size: 17px;
   }
 }
 
