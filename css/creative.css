@@ -182,7 +182,7 @@ aside {
   margin-bottom: 20px;
 }
 
-@media (min-width: 320px) {
+@media (min-width: 386px) {
   .navbar-brand.brand-text{
     display: inline-block;
   }
