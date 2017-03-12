@@ -70,10 +70,12 @@ aside {
 .navbar-brand.brand-text {
   text-transform: uppercase;
   font-family: 'Lemonada', cursive;
-  margin-top: 2px;
-  font-size: 13px;
+  font-size: 14px;
   font-weight: lighter;
-  margin-right: -10px;
+  margin: 0 -14px 18px -6px;
+  max-width: 130px;
+  word-wrap: break-word;
+  text-align: center;
 }
 
 .navbar-default {
@@ -184,7 +186,10 @@ aside {
 
 @media (min-width: 376px) {
   .navbar-brand.brand-text{
+    max-width: 100%;
+    word-wrap: normal;
     font-size: 17px;
+    margin: 2px 0 0 0;
   }
 }
 
