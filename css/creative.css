@@ -147,6 +147,19 @@ aside {
   text-align: center;
 }
 
+.presentation-img-container {
+  position: relative;
+}
+
+.img-btn {
+  position: absolute;
+  bottom: 25px;
+  left: 25px;
+  text-align: center;
+  display: none; /*only visible in larger screens*/
+  color: rgb(48,106,29);
+}
+
 .carousel {
   margin: 0 auto;
   max-width: 100%;
@@ -339,6 +352,9 @@ header .header-content hr {
   }
   .presentation-img-container {
     border-right: 2px solid rgba(14,96,170,0.5);
+  }
+  .img-btn {
+    display: inline-block;
   }
   .service-box {
     margin: 20px auto 0;
