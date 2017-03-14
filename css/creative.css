@@ -130,12 +130,6 @@ aside {
   font-size: 20px;
 }
 
-.presentation-box p {
-  font-weight: lighter;
-  font-size: 13px;
-  text-align: left !important;
-}
-
 .presentations img {
   max-width: 100%;
   height: 300px;
@@ -146,6 +140,7 @@ aside {
 
 .presentations h3 {
   margin-bottom: 30px;
+  text-align: center;
 }
 
 .presentations p {
@@ -159,6 +154,10 @@ aside {
   border-bottom: 15px dashed rgb(14,96,170);
 }
 
+.presentation-box p {
+  font-weight: lighter;
+  font-size: 13px;
+}
 
 .carousel{
     border-radius: 2px;
@@ -335,6 +334,9 @@ header .header-content hr {
   margin: 50px auto 0;
 }
 @media (min-width: 992px) {
+  .presentation-box p,.presentation-box h3 {
+    text-align: left;
+  }
   .presentation-img-container {
     border-right: 2px solid rgba(14,96,170,0.5);
   }
