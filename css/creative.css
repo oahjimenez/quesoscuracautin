@@ -85,6 +85,7 @@ aside {
   -moz-transition: all 0.35s;
   transition: all 0.35s;
   padding: 0;
+  border-bottom: 2px solid rgba(127, 255, 212,0.5);
 }
 
 .navbar-default .navbar-header .navbar-toggle {
@@ -246,6 +247,7 @@ aside {
     .navbar-default {
       padding: 30px;
       background-color: transparent;
+      border-bottom: none;
       border-color: transparent;
     }
     .navbar-default .navbar-header .navbar-brand:hover,
@@ -274,6 +276,7 @@ aside {
     .navbar-default.affix {
       background-color: white;
       padding:0px;
+      border-bottom: 2px solid rgba(127, 255, 212,0.5);
     }
     .navbar-default.affix .navbar-brand.brand-text{
       display: inline-block;
