@@ -382,6 +382,18 @@ header .header-content hr {
   margin-top: 0;
 }
 
+.fa-twitter {
+  color: rgb(0, 172, 237);
+}
+
+.fa-facebook {
+  color: rgb(59, 89, 152);
+}
+
+.fa-linkedin {
+  color: rgb(0, 123, 182);
+}
+
 .call-to-action h2 {
   margin: 0 auto 20px;
 }
