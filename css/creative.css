@@ -164,8 +164,6 @@ aside {
 .carousel {
   margin: 0 auto;
   max-width: 100%;
-  border-top: 15px dashed rgb(14,96,170);
-  border-bottom: 15px dashed rgb(14,96,170);
 }
 
 .presentation-box p {
