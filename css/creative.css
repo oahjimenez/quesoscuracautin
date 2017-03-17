@@ -302,7 +302,9 @@ aside {
   }
 }
 
-/* Bootstrap patch for collapsing navbar earlier  */
+/* Bootstrap patch for collapsing navbar earlier
+src: https://coderwall.com/p/wpjw4w/change-the-bootstrap-navbar-breakpoint
+*/
 @media (max-width: 992px) {
     .navbar-default.affix .navbar-header {
         float: none;
