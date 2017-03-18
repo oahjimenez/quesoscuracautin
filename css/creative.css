@@ -76,6 +76,7 @@ aside {
   max-width: 130px;
   word-wrap: break-word;
   text-align: center;
+  color: rgb(14,96,170);
 }
 
 .navbar-default {
@@ -358,7 +359,7 @@ src: https://coderwall.com/p/wpjw4w/change-the-bootstrap-navbar-breakpoint
     }
     .navbar-default .navbar-header .navbar-brand:hover,
     .navbar-default .navbar-header .navbar-brand:focus {
-      color: white;
+      color: rgb(14,96,170);
     }
     .navbar-default .nav > li > a,
     .navbar-default .nav > li > a:focus {
@@ -366,7 +367,7 @@ src: https://coderwall.com/p/wpjw4w/change-the-bootstrap-navbar-breakpoint
     }
     .navbar-default .nav > li > a:hover,
     .navbar-default .nav > li > a:focus:hover {
-      color:rgba(255,255,255,0.7);
+      color:rgba(255,255,255,0.8);
     }
 
     .navbar-default .nav > li > a:hover:after,
