@@ -62,7 +62,11 @@ section {
   padding: 80px 0;
 }
 .bloglike {
-  /*background: url("../img/bg1.png");*/
+  background: url('../img/blogbg2.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 .bloglike i {
   font-size: 2em;
@@ -76,6 +80,11 @@ section {
 }
 .bloglike p {
   font-weight: lighter;
+}
+.bloglike img {
+  height:auto;
+  width:100%;
+  margin: 30px auto;
 }
 
 aside {
@@ -206,7 +215,7 @@ aside {
   height: auto;
 }
 
-.md-header {
+.md-display {
   display: none; /*bigger screens only*/
 }
 
@@ -427,7 +436,7 @@ src: https://coderwall.com/p/wpjw4w/change-the-bootstrap-navbar-breakpoint
     .xs-header {
       display:none;
     }
-    .md-header {
+    .md-display {
       display: inline-block;
     }
 } /*end media-query*/
@@ -542,7 +551,7 @@ header .header-content hr {
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
     margin-top: 50px; /* margin-top shrinks in bigger devices*/
-  }
+}
 
 .section-heading {
   margin-top: 0;
