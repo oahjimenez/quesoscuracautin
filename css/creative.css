@@ -87,6 +87,9 @@ section {
   margin: 30px auto;
 }
 
+.bloglike img:first-child {
+  margin-top: 0;
+}
 aside {
   padding: 50px 0;
 }
