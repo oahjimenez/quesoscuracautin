@@ -19,6 +19,12 @@ hr {
 hr.light {
   border-color: rgba(255,255,255,0.8);
 }
+hr.blog {
+  margin: 0;
+  margin-bottom: 20px;
+  max-width: 90%;
+  border-color: rgba(14,96,170,0.4);
+}
 a {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
@@ -54,6 +60,9 @@ p {
 }
 section {
   padding: 100px 0;
+}
+.bloglike {
+  background: url("../img/bg1.png");
 }
 aside {
   padding: 50px 0;
@@ -423,6 +432,7 @@ header {
   overflow: hidden;
   padding-bottom: 20px;
 }
+
 header .header-content {
   position: relative;
   text-align: center;
@@ -430,6 +440,7 @@ header .header-content {
   height: auto;
   margin-top: 150px;
 }
+
 /* btn-circle original source:
 https://startbootstrap.com/template-overviews/grayscale/
 */
@@ -503,6 +514,7 @@ header .header-content hr {
   border-color: rgba(255,255,255,0.8);
   margin: 10px auto;
 }
+
 
 @media (min-width: 768px) {
   header {
