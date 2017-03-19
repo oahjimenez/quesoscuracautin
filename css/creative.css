@@ -279,16 +279,7 @@ aside {
 }
 .news-banner .calendar-btn {
   position:absolute;
-  left:50%;
-  -webkit-transform:translateX(-50%);
-  -webkit-transform:translateY(-25%);
-  -moz-transform:translateX(-50%);
-  -moz-transform:translateY(-25%);
-  -ms-transform: translateX(-50%);
-  -ms-transform:translateY(-25%);
-  -o-transform:translateX(-50%);
-  -o-transform:translateY(-25%);
-  transform:translateX(-50%);
+  left:25%;
   background-color: transparent;
   border:2px solid white;
 }
