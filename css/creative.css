@@ -293,6 +293,14 @@ aside {
   border:2px solid white;
 }
 
+.products-section {
+  background: url('../img/products-bg.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 .history-section {
   min-height: auto;
   -webkit-background-size: cover;
