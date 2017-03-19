@@ -81,7 +81,7 @@ section {
   font-weight: bold;
   margin-top: 50px;
 }
-.bloglike p {
+.bloglike p,.bloglike li {
   font-weight: lighter;
 }
 .bloglike img {
@@ -93,6 +93,12 @@ section {
 .bloglike img:first-child {
   margin-top: 0;
 }
+
+.bloglike li {
+  padding: 10px 10px;
+  text-align: justify;
+}
+
 aside {
   padding: 50px 0;
 }
