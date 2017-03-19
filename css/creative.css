@@ -267,7 +267,7 @@ aside {
   border:2px solid white;
 }
 
-#history {
+.history-section {
   min-height: auto;
   -webkit-background-size: cover;
   -moz-background-size: cover;
