@@ -166,6 +166,7 @@ aside {
   margin-top:-1px;
   margin-left: -30px;
 }
+
 .white-border {
   text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
@@ -174,6 +175,9 @@ aside {
   font-weight: lighter;
 }
 
+.blackish-bg {
+  background:rgba(0,0,0,0.4); padding: 10px 0;
+}
 
 .presentation-box {
   padding-bottom: 30px;
