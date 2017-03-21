@@ -22,7 +22,6 @@
 
     <!-- Plugin CSS -->
     <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
-    <link href="vendor/fullcalendar/fullcalendar.css" rel="stylesheet"/>
 
     <!-- Theme CSS -->
     <link href="css/creative.css" rel="stylesheet">
@@ -63,7 +62,7 @@
                         <a class="page-scroll" href="about.html">Quiénes somos</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="products.html">Productos</a>
+                        <a class="page-scroll" href="#products">Productos</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="history.html">Historia</a>
@@ -81,12 +80,12 @@
         <!-- /.container-fluid -->
     </nav>
 
-    <header style="background-image: url('img/072.jpg');">
+    <header style="background-image: url('img/history-header.jpg');">
           <div class="header-content">
               <div class="blackish-bg">
-                <h1>Eventos y Novedades</h1>
-                <hr>
-                <p>Siempre al tanto de nuestras actividades queseras</p>
+                  <h1>NUESTROS PRODUCTOS</h1>
+                  <hr>
+                  <p>Conoce la trayectoria de nuestros productos</p>
               </div>
                   <div>
                     <a href="#history" class="btn btn-circle page-scroll">
@@ -95,14 +94,48 @@
                   </div>
           </div>
     </header>
-    <section id="history" class="bloglike">
+    <section id="products" class="bloglike">
         <div class="container">
-          <h2 class="text-center">Novedades Curacautín</h2>
-          <i class="fa fa-4x fa-angle-double-right sr-icons" aria-hidden="true"></i>
-          <h3>Calendario de Eventos</h3>
-          <hr class="blog">
-          <div id="calendar"></div>
-          <p class="text-center">No te pierdas ninguno de nuestros eventos!</p>
+          <h2 class="text-center">Nuestros productos</h2>
+          <p>Ofrecemos una gran variedad de productos, todos elaborados con la mejor materia prima y la dedicación de todo un equipo, el que trabaja como una gran familia, la pasión en lo que hacemos, marca la diferencia.</p>
+          <div id="maduros">
+              <i class="fa fa-4x fa-angle-double-right sr-icons" aria-hidden="true"></i>
+              <h3>Quesos Maduros y Añejos</h3>
+              <hr class="blog">
+          </div>
+          <div class="row">
+              <div class="col-xs-12 col-sm-8 col-md-8 col-lg-7 products">
+                  <img src="img/quesos-formato1.jpg" class="img-responsive" alt="">
+                  <p>Vendemos quesos de Maduración media, los que poseen de 1 a 2 meses de maduración. Y quesos de maduración prolongada con 4 a 6 meses</p>
+                  <div id="oregano" class="clear-floats">
+                      <i class="fa fa-4x fa-angle-double-right sr-icons" aria-hidden="true"></i>
+                      <h3>Quesos Condimentados con Orégano</h3>
+                      <hr class="blog">
+                      <img src="img/oregano.jpg" class="img-responsive" alt="">
+                      <p>Vendemos quesos maduros condimentados con oréganos, especie propia del sur de Chile</p>
+                  </div>
+                  <div id="merken" class="clear-floats">
+                    <i class="fa fa-4x fa-angle-double-right sr-icons" aria-hidden="true"></i>
+                    <h3>Quesos Condimentados con Merken</h3>
+                    <hr class="blog">
+                    <img src="img/merken.jpg" class="img-responsive" alt="">
+                    <p>Vendemos quesos maduros condimentados con Merken, especie originaria de la Araucanía</p>
+                  </div>
+                  <div id="tablas-mixtas" class="clear-floats">
+                    <i class="fa fa-4x fa-angle-double-right sr-icons" aria-hidden="true"></i>
+                    <h3>Tablas Mixtas</h3>
+                    <hr class="blog">
+                    <img src="img/quesos-formato3.jpg" class="img-responsive" alt="">
+                    <p>Vendemos tablas de quesos, las cuales combinan todas nuestras variedades (quesos con orégano, quesos con merken, quesos de maduración media, y quesos de maduración prolongada) todo en un solo producto</p>
+                  </div>
+              </div>
+              <div class="col-xs-12 col-sm-4 col-md-4 col-lg-5 gallery">
+                <img src="img/history1.jpg"  class="img-responsive md-display" alt="">
+                <img src="img/history2.jpg"  class="img-responsive md-display" alt="">
+                <img src="img/history3.jpg"  class="img-responsive md-display" alt="">
+                <img src="img/history4.jpg"  class="img-responsive md-display" alt="">
+              </div>
+          </div>
         </div>
     </section>
     <footer id="contact">
@@ -141,14 +174,8 @@
     <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
     <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
 
-    <!-- Fullcalendar Plugins !-->
-    <script src='vendor/moment/moment.min.js'></script>
-    <script src='vendor/fullcalendar/fullcalendar.min.js'></script>
-    <script src='vendor/fullcalendar/locale/es.js'></script>
-
     <!-- Theme JavaScript -->
     <script src="js/creative.min.js"></script>
-    <script src="js/custom-calendar.js"></script>
 
 </body>
 

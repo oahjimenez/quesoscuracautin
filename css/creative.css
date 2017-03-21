@@ -81,10 +81,12 @@ section {
   font-weight: bold;
   margin-top: 50px;
 }
+
 .bloglike p,.bloglike li {
   font-weight: lighter;
 }
-.bloglike img {
+
+.bloglike .gallery img {
   height:auto;
   width:100%;
   margin: 30px auto;
@@ -93,12 +95,20 @@ section {
 .bloglike img:first-child {
   margin-top: 0;
 }
-
+.products img {
+  float:left;
+  width:250px;
+  height:auto;
+  margin-right: 20px;
+  box-shadow: 10px 10px 5px #888888;
+}
 .bloglike li {
   padding: 10px 10px;
   text-align: justify;
 }
-
+.clear-floats{
+  clear:both;
+}
 aside {
   padding: 50px 0;
 }
