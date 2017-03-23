@@ -300,14 +300,13 @@ aside {
   font-size: 1.2em;
 }
 
-.news-banner li {
+.news-banner h3 {
   padding-top:20px;
   padding-left:10px;
 }
 
 .news-banner p {
     padding-left:30px;
-    padding-top:6px;
     font-size:13px;
     font-weight:lighter;
     width: 100%;
@@ -368,7 +367,7 @@ aside {
   margin-bottom: 0;
   color: white;
   margin-top:0;
-  padding: 15px 40px;
+  padding: 20px 40px;
 }
 
 .footer h3{
@@ -406,7 +405,24 @@ aside {
   padding: 8px;
   font-size: 2em;
   margin-right: 8px;
-  margin-bottom:20px;
+  margin-bottom:10px;
+}
+.footer .gmaps-icon {
+  float:left;
+  width:50px;
+  height:auto;
+}
+.mail {
+  font-size:14px;
+  margin-right:-90px;
+}
+.phone-list .number{
+  margin-left:50px;
+  padding-top:0;
+}
+.phone-list .fa-phone {
+  margin-bottom:-50px;
+  padding: 7px 10px;
 }
 .contact-list i {
   color: rgb(14,96,170);
