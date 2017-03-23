@@ -329,8 +329,12 @@ aside {
 }
 .products-section h2 {
   font-size: 40px;
-  font-weight: bolder;
+}
+.text-shadow {
   text-shadow: 4px 4px 5px gray;
+}
+.bolder {
+  font-weight: bolder;
 }
 .history-section {
   min-height: auto;
@@ -347,6 +351,9 @@ aside {
 }
 .team-section i {
   font-size: 25px;
+}
+.team-section h2 {
+  margin-bottom: 10px;
 }
 .footer {
   min-height: auto;
