@@ -407,6 +407,20 @@ aside {
   margin-right: 8px;
   margin-bottom:10px;
 }
+
+/* Brand colors */
+.fa-facebook {
+  color: rgb(59, 89, 152);
+}
+
+.fa-twitter {
+  color: rgb(0, 172, 237);
+}
+
+.fa-linkedin {
+  color: rgb(0, 123, 182);
+}
+
 .footer .gmaps-icon {
   float:left;
   width:50px;
@@ -713,18 +727,6 @@ header .header-content hr {
 }
 .team-member p {
   margin-top: 0;
-}
-
-.fa-twitter {
-  color: rgb(0, 172, 237);
-}
-
-.fa-facebook {
-  color: rgb(59, 89, 152);
-}
-
-.fa-linkedin {
-  color: rgb(0, 123, 182);
 }
 
 .call-to-action h2 {
