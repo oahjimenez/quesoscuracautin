@@ -205,7 +205,6 @@ aside {
   margin: 0 auto;
   padding-right: 15px;
   margin-bottom: 8px;
-  border-radius: 100%;
 }
 
 .presentations h3 {
@@ -339,6 +338,12 @@ aside {
   background-image: url('../img/098-quesos-history.jpg');
 }
 
+.team-section {
+    padding: 80px 0 0 0;
+}
+.team-section i {
+  font-size: 25px;
+}
 .footer {
   min-height: auto;
   -webkit-background-size: cover;
@@ -665,8 +670,10 @@ header .header-content hr {
 }
 .team-member img {
   max-width: 30%;
+  width:30%;
   margin: 0 auto;
   border: 7px solid white;
+  margin:0 auto;
 }
 .team-member h4 {
   margin-top: 25px;
