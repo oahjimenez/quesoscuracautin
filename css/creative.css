@@ -546,6 +546,10 @@ header .header-content {
   margin-top: 150px;
 }
 
+header .header-content h1 {
+  font-weight: 600;
+}
+
 /* btn-circle original source:
 https://startbootstrap.com/template-overviews/grayscale/
 */
