@@ -375,6 +375,7 @@ aside {
   color: white;
   margin-top:0;
   padding: 20px 40px;
+  overflow: hidden;
 }
 
 .footer h3{
