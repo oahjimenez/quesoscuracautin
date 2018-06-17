@@ -10,7 +10,7 @@ if(isset($_POST['send_email'])) {
 			$_POST['message'] . "\r\n\r\nNúmero de contacto: " . $telephone . "\r\n\r\n**** Fin del Mensaje:\r\nwww.quesoscuracautin.cl";
 
 //php mailer variables
-  $to =  [ "carlos.mardonesm14@gmail.com","gmariamardones@gmail.com", sanitize_email(get_option('admin_email')) ];
+  $to =  [ "carlos.mardonesm14@gmail.com","gmariamardones@gmail.com","carmen.mardones@alumnos.usm.cl", sanitize_email(get_option('admin_email')) ];
   $subject = "Buzón Quesos Curacautin";
   $headers = 'De: '. $email . "\r\n" .
     'Reply-To: ' . $email . "\r\n";	
